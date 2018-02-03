@@ -1,0 +1,10 @@
+$('.nav').children('li').hover(
+	function(){
+		$(this).children('.sub-nav-wrap').show();
+		$(this).children('a').children('.jiao').show();
+	},
+	function(){
+		$(this).children('.sub-nav-wrap').hide();
+		$(this).children('a').children('.jiao').hide();
+	}
+);

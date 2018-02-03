@@ -1,0 +1,486 @@
+section .banner {
+  position: relative;
+  margin: 121px 0 15px; }
+section .banner .bigbanner {
+  display: block;
+  height: 100%;
+  width: 100%; }
+section .banner .smallbanner {
+  display: none; }
+section .banner h3 {
+  position: absolute;
+  left: 50%;
+  margin-left: -185px;
+  font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-size: 56px;
+  font-weight: normal;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  line-height: 48px;
+  padding: 143px 0 21px;
+  text-align: center;
+  vertical-align: middle; }
+section .banner .banner-btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -165px;
+  top: 220px; }
+section .banner .banner-btn div {
+  cursor: pointer;
+  box-sizing: border-box;
+  float: left;
+  margin: 0 10px;
+  width: 145px;
+  letter-spacing: 1px;
+  background: #C1B497;
+  border: 2px solid #C1B497;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: normal;
+  vertical-align: middle;
+  min-width: 128px;
+  padding: 0 5px;
+  height: 40px;
+  line-height: 36px;
+  font-size: 12px;
+  text-align: center; }
+section .banner .banner-free {
+  position: absolute;
+  right: 24px;
+  height: auto;
+  width: auto;
+  font-size: 25px;
+  bottom: 0; }
+section .banner .banner-free a {
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 14px;
+  display: inline-block;
+  margin-bottom: 20px; }
+section .product-wrap {
+  position: relative;
+  padding: 0 15px; }
+section .product-wrap > i {
+  position: absolute;
+  display: block;
+  width: 48px;
+  height: 48px;
+  left: 50%;
+  top: -38px;
+  margin-left: -24px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -769px -85px;
+  z-index: 3; }
+section .product-wrap .product-show {
+  position: relative;
+  width: 100%;
+  background: #E7E7E7;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-bottom: 1px solid #fff;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden; }
+section .product-wrap .product-show > img {
+  width: 100%;
+  height: 100%; }
+section .product-wrap .product-show .pro-bigPic {
+  display: inline-block;
+  max-width: 695px;
+  margin: 0 auto; }
+section .product-wrap .product-show .pro-bigPic > img {
+  margin-top: -80px;
+  display: block;
+  width: 100%;
+  height: 100%; }
+section .product-wrap .product-show .gtz > img {
+  width: 462px;
+  margin-top: 80px !important; }
+section .product-wrap .product-show .pro-smallPic2 {
+  float: left !important;
+  left: 3%;
+  top: 650px !important; }
+section .product-wrap .product-show .pro-smallPic3 {
+  top: 50% !important; }
+section .product-wrap .product-show .pro-smallPic {
+  box-sizing: border-box;
+  position: absolute;
+  display: inline-block;
+  background-color: #f5f5f5;
+  max-width: 180px;
+  width: 100%;
+  min-height: 100px;
+  float: right;
+  right: 5%;
+  top: 100px;
+  padding: 40px 27px 16px 25px; }
+section .product-wrap .product-show .pro-smallPic > img {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px; }
+section .product-wrap .product-show .pro-smallPic .pro-title {
+  font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-style: normal;
+  font-weight: light;
+  color: #4b4b4b;
+  font-size: 20px;
+  margin-bottom: 18px; }
+section .product-wrap .product-show .pro-smallPic > i {
+  font-family: "TimesNewRomanPS-ItalicMT", "STSong", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  color: #666;
+  font-size: 12px;
+  line-height: 20px;
+  display: block;
+  margin-bottom: 16px; }
+section .product-wrap .product-show .pro-smallPic .pro-more {
+  font-family: "FuturaLT-Book", "NotoSansCJKsc-Regular", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  padding-right: 15px;
+  margin-bottom: 37px;
+  padding-top: 1px;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 1px;
+  vertical-align: middle; }
+section .product-wrap .product-show .pro-smallPic .pro-more:after {
+  content: "";
+  width: 10px;
+  cursor: pointer;
+  height: 10px;
+  line-height: 1.2;
+  margin-top: -1px;
+  vertical-align: middle;
+  display: block;
+  left: auto;
+  position: absolute;
+  right: -4px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -74px 0; }
+section .product-wrap .product-show .pro-zc {
+  margin-top: 260px !important; }
+section .product-wrap .product-show .pro-content {
+  position: relative;
+  bottom: 50px;
+  margin-top: 0; }
+section .product-wrap .product-show .pro-content > p {
+  font-size: 12px;
+  letter-spacing: 1.65px;
+  text-transform: uppercase; }
+section .product-wrap .product-show .pro-content > h2 {
+  font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #313131;
+  font-size: 36px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 44px; }
+section .product-wrap .product-show .pro-content > b {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: url("../images/icon.png") no-repeat;
+  background-position: -225px 0;
+  margin: 20px 0; }
+section .product-wrap .product-show .pro-content > div {
+  font-family: "FuturaLT-Book", "NotoSansCJKsc-Regular", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  min-width: 151px;
+  font-size: 12px;
+  line-height: 40px;
+  background: #C1B497;
+  padding: 0 5px;
+  height: 40px;
+  width: 141px;
+  margin: 0 auto; }
+section .product-wrap .product-show .pro-content > div > a {
+  color: #FFFFFF; }
+section .product-wrap .product-show .video-copy {
+  position: absolute;
+  width: 160px;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  margin-left: -80px;
+  margin-top: -176px;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  text-align: center; }
+section .product-wrap .product-show .video-copy span {
+  display: block;
+  font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-size: 24px;
+  color: #4B4B4B;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: 200;
+  padding: 42px 0 25px;
+  margin: 0 auto;
+  width: 125px;
+  text-align: center; }
+section .product-wrap .product-show .video-copy i {
+  display: block;
+  font-family: "TimesNewRomanPS-ItalicMT", "STSong", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #666;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 20px;
+  margin: 0 auto;
+  padding-bottom: 23px;
+  width: 125px;
+  min-height: 80px; }
+section .product-wrap .product-show .video-copy a {
+  cursor: pointer;
+  display: block;
+  padding: 0 0 40px;
+  min-height: 30px;
+  font-size: 13px;
+  color: #313131; }
+section .product-wrap .product-show .video-copy a b {
+  display: inline-block;
+  width: 9px;
+  height: 8px;
+  vertical-align: middle;
+  background: url("../images/icon.png") no-repeat -109px 0;
+  vertical-align: middle; }
+section .product-wrap .gucci-story > p {
+  padding: 63px 0 67px;
+  position: relative;
+  text-align: center;
+  font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-weight: 200;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 36px;
+  color: #313131;
+  letter-spacing: 2px; }
+section .product-wrap .gucci-story > i {
+  display: block;
+  background: #d0c4ae none repeat scroll 0 0;
+  height: 1px;
+  left: 50%;
+  position: relative;
+  width: 20%;
+  margin-left: -10%; }
+section .product-wrap .gucci-story .gucci-story-part {
+  margin-top: 50px;
+  width: 100%; }
+section .product-wrap .gucci-story .gucci-story-part .stories {
+  overflow: hidden;
+  position: relative; }
+section .product-wrap .gucci-story .gucci-story-part .stories > dl {
+  float: left;
+  width: 33.33%;
+  height: auto; }
+section .product-wrap .gucci-story .gucci-story-part .stories > dl > dt {
+  width: 100%;
+  height: auto; }
+section .product-wrap .gucci-story .gucci-story-part .stories > dl > dt > img {
+  display: block;
+  margin: 0 auto;
+  width: 85%; }
+section .product-wrap .gucci-story .gucci-story-part .stories > dl dd p {
+  font-family: "FuturaLT-Light", "NotoSansCJKsc-Light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 47px;
+  min-height: 12px;
+  color: #000000;
+  line-height: 20px; }
+section .product-wrap .gucci-story .gucci-story-part .stories > dl dd a {
+  font-family: "FuturaLT-Book", "NotoSansCJKsc-DemiLight", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+  font-style: normal;
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+  margin-bottom: 50px;
+  margin-top: 8px;
+  padding-right: 7px;
+  position: relative;
+  text-transform: uppercase; }
+section .product-wrap .gucci-story .gucci-story-part .stories > dl dd b {
+  display: inline-block;
+  width: 9px;
+  height: 8px;
+  vertical-align: middle;
+  background: url("../images/icon.png") no-repeat -109px 0;
+  vertical-align: middle; }
+section .product-wrap .gucci-story .gucci-story-part .stories .part-down-left, section .product-wrap .gucci-story .gucci-story-part .stories .part-down-right {
+  position: absolute;
+  bottom: 0; }
+section .product-wrap .gucci-story .gucci-story-part .stories .part-down-left {
+  clear: both;
+  left: 0px; }
+section .product-wrap .gucci-story .gucci-story-part .stories .part-down-right {
+  float: right;
+  right: 0px; }
+section .product-wrap .gucci-story .gucci-story-part .style-news-content {
+  display: none; }
+section .product-wrap .gucci-story .gucci-story-part .allStory {
+  padding: 9px 0 60px;
+  position: relative;
+  text-align: center;
+  clear: both; }
+section .product-wrap .gucci-story .gucci-story-part .allStory a {
+  display: inline-block;
+  width: 151px;
+  line-height: 38px;
+  background: #C1B497;
+  border: 2px solid #C1B497;
+  color: #ffffff; }
+
+@media screen and (max-width: 1023px) {
+  section .banner {
+    margin: 70px 0  0 0; }
+  section .banner h3 {
+    padding-top: 100px;
+    line-height: 0; }
+  section .banner .banner-btn {
+    top: 200px; }
+  section .product-wrap {
+    padding: 0; }
+  section .product-wrap > i {
+    top: -24px; }
+  section .product-wrap .pro-bigPic > img {
+    height: auto !important;
+    width: 300px !important;
+    margin-top: -20px !important; }
+  section .product-wrap .pro-smallPic {
+    padding: 30px 30px 20px; }
+  section .product-wrap .pro-smallPic > p {
+    font-size: 16px !important; }
+  section .product-wrap .pro-smallPic > i {
+    display: none !important; }
+  section .product-wrap .pro-smallPic .pro-more {
+    font-size: 12px !important;
+    margin-bottom: 20px !important; }
+  section .product-wrap .pro-content > h2 {
+    font-size: 24px !important; } }
+@media screen and (max-width: 767px) {
+  section .banner {
+    margin: 50px 0  0 0; }
+  section .banner .bigbanner {
+    display: none; }
+  section .banner .smallbanner {
+    display: block;
+    height: auto;
+    width: 100%; }
+  section .banner h3 {
+    margin-left: -120px;
+    font-size: 36px;
+    line-height: 36px; }
+  section .product-wrap {
+    padding: 0; }
+  section .product-wrap > i {
+    top: -24px; }
+  section .product-wrap .pro-bigPic > img {
+    height: auto !important;
+    width: 300px !important;
+    margin-top: -20px !important; }
+  section .product-wrap .pro-smallPic {
+    display: none !important; }
+  section .product-wrap .pro-content > h2 {
+    font-size: 18px !important; }
+  section .product-wrap .video-copy {
+    width: 128px !important;
+    height: 269px !important; }
+  section .product-wrap .video-copy .video-title {
+    font-size: 14px !important; }
+  section .product-wrap .video-copy > i {
+    font-size: 12px !important; }
+  section .product-wrap .video-copy > a {
+    font-size: 12px !important; }
+  section .product-wrap .gucci-story {
+    padding: 0; }
+  section .product-wrap .gucci-story > p {
+    font-size: 18px;
+    padding: 42px 0; }
+  section .product-wrap .gucci-story .gucci-story-part .stories {
+    display: none; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content {
+    display: block;
+    padding: 0 15px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item {
+    width: 48%;
+    height: auto;
+    margin: 0 auto;
+    float: left; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item img {
+    width: 100%;
+    height: 100%; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item .item-wrap {
+    left: 0;
+    top: 0;
+    margin-left: 0;
+    margin-right: 5%;
+    margin-bottom: 20px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item .item-wrap .s-title {
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: 900; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item .item-wrap .s-link {
+    margin-top: 15px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item .item-wrap .s-link a {
+    color: #666;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 14px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .style-news-item .item-wrap .s-link b {
+    display: inline-block;
+    width: 9px;
+    height: 8px;
+    vertical-align: middle;
+    background: url("../images/icon.png") no-repeat -109px 0;
+    vertical-align: middle; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-0 {
+    bottom: 15px;
+    position: relative;
+    top: 10px;
+    border-right: 2px solid #f5f5f5;
+    right: -1px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-1 {
+    margin-top: 10px;
+    margin-left: 20px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-4 {
+    margin-top: 10px;
+    margin-left: 20px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-3 {
+    bottom: 15px;
+    position: relative;
+    top: 10px;
+    border-right: 2px solid #f5f5f5;
+    right: -1px; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-2 {
+    width: 100%;
+    margin: 25px auto;
+    padding: 15px 0;
+    border-top: 2px solid #f5f5f5;
+    border-bottom: 2px solid #f5f5f5; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-2 .item-wrap {
+    margin: 3% auto 6%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 90%;
+    overflow: hidden; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-2 .item-wrap .img-wrap {
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0; }
+  section .product-wrap .gucci-story .gucci-story-part .style-news-content .item-2 .item-wrap img {
+    width: 100%;
+    height: auto; } }
