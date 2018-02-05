@@ -1,0 +1,17 @@
+//点击创建账户按钮弹出注册页面
+$('.cover').css('display','block');
+$('.login-create-btn').click(function(){
+	$('.cover').stop(true).fadeIn();
+});
+//点击×关闭页面
+$('.reg-close').click(function(){
+	$('.cover').stop(true).fadeOut();
+});
+//点击cover关闭页面
+//阻止冒泡
+$('.reg').click(function(evt){
+	evt.stopPropagation();
+})
+$('.cover').click(function(){
+	$(this).stop(true).fadeOut();
+});
