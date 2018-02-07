@@ -307,17 +307,18 @@
 		<div class="product-wrap">
 			<div class="product-show">
 				<div class="backOrface">
-					<ul>
-						<li class="active">正面</li>
-						<li>背后</li>
+					<ul class="backface">
+						<li class="zm" style="border-bottom:2px solid #999">正面</li>
+						<li class="hm active">背后</li>
 					</ul>
 				</div>
 				<div class="goods-img ">
-					<img src="images/list1big.jpg" />
+					<img  class="a_p" src="images/list1big.jpg" />
+					<img src="images/list1big1.jpg" style="display: none;"  class="m_p" />
 				</div>
 				<div class="min-goods-info">
 					<h1>Look 1</h1>
-					<h2>2017早秋系列</h2>
+					<h2>女士</h2>
 					<div class="look-link">
 						<a href="javascript:;">
 							<i></i>
@@ -363,9 +364,43 @@
 					</div>
 				</div>
 			</div>
+			<div class="product-show1">
+				<div class="goods-img">
+					<img class="a_p" src="images/list1small.jpg" />
+					<img src="images/list1small1.jpg" style="display: none;"  class="m_p" />
+					<img class="b_p" style="display: none;" src="images/list1big.jpg">
+					<img class="b_m" style="display: none;" src="images/list1big1.jpg">
+				</div>
+				<div class="min-goods-info">
+					<h1>Look 1</h1>
+					<h2>女士</h2>
+					<ul class="backface">
+						<li class="zm" >正面</li>
+						<li class="hm active">背后</li>
+					</ul>
+					<div class="look-link">
+						<a href="javascript:;">
+							<i></i>
+							<span>加入心愿单</span>
+						</a>
+						<a href="javascript:;">
+							<i></i>
+							<span>在线顾问</span>
+						</a>
+					</div>
+					<div class="goods-share">
+						分享至：
+						<a href="#"></a>
+						<a href="#"></a>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="correlation-wrap">
 			<div class="correlation">
+				<div class="featured-pieces">
+					<a href="#">选购相关单品</a>
+				</div>
 				<div class="goods-wrap">
 					<div class="goods">
 						<a href="javascript:;">
@@ -652,3 +687,17 @@
 <script type="text/javascript" src="javascripts/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="javascripts/index.js"></script>
 <script type="text/javascript" src="javascripts/details.js"></script>
+<script type="text/javascript">
+	$(".backface li").click(function(){
+		$(".backface li").toggleClass("active");
+	})
+	$(".zm").click(function(){
+		$(".a_p").show();
+		$(".m_p").hide();
+	})
+	$(".hm").click(function(){
+		$(".a_p").hide();
+		$(".m_p").show();
+
+	})
+</script>

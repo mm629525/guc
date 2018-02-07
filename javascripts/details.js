@@ -21,4 +21,23 @@ window.onscroll=function(){
 $('.goods-img').click(function(){
 	$(this).children('img').toggleClass('goods-img-big');
 });
-
+$('.product-show1 .goods-img .a_p').toggle(
+	function(){
+		$(this).hide();
+		$('.b_p').show();
+	},
+	function(){
+		$(this).show();
+		$('.b_p').hide();
+	}
+);
+$('.product-show1 .goods-img .m_p').toggle(
+	function(){
+		$(this).hide();
+		$('.b_m').show();
+	},
+	function(){
+		$(this).show();
+		$('.b_m').hide();
+	}
+)

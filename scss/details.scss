@@ -31,12 +31,15 @@ section{
 						position: relative;
 						width: 33px;
 						font-family: "FuturaLT-Book", "NotoSansCJKsc-demilight", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
-						color: #C4B89D;
+						color: #2D2D2D;
 						cursor: pointer;
+						border-bottom: 2px solid #e7e7e7;
 					}
 					.active {
-						border-bottom: 2px solid #999999;
-						color: #2D2D2D;
+						// border-bottom: 2px solid #999999;
+						// color: #2D2D2D;
+
+						color: #C4B89D;
 					}
 				}
 			}
@@ -91,7 +94,6 @@ section{
 					a {
 						padding-right: 18px;
 						margin-right: 18px;
-						border-right: 1px solid #C8C6C5;
 						i{
 							vertical-align: middle;
 							margin-right: 6px;
@@ -105,6 +107,9 @@ section{
 							color: #C1B497;
 							font-size: 12px;
 						}
+					}
+					a:nth-of-type(1){
+						border-right: 1px solid #C8C6C5;
 					}
 					a:nth-of-type(2) i {
 						background-position: -187px -84px;
@@ -190,7 +195,6 @@ section{
 						a{
 							padding-right: 18px;
 							margin-right: 18px;
-							border-right: 1px solid #C8C6C5;
 							i{
 								vertical-align: middle;
 								margin-right: 6px;
@@ -204,6 +208,9 @@ section{
 								color: #C1B497;
 								font-size: 12px;
 							}
+						}
+						a:nth-of-type(1){
+							border-right: 1px solid #C8C6C5;
 						}
 						a:nth-of-type(2) i {
 							background-position: -187px -84px;
@@ -254,6 +261,129 @@ section{
 				}
 			}
 		}
+		.product-show1{
+			display: none;
+			position: relative;
+			width: 100%;
+			text-align: center;
+			border-bottom: 1px solid #fff;
+			box-sizing: border-box;
+			text-align: center;
+			overflow: hidden;
+			background: #e7e7e7;
+			.goods-img{
+				margin-top: 15px;
+				margin: 0 auto;
+				display: inline-block;
+				img{
+					width: 160px;
+					height:auto;					
+					transition: 1s all;
+				}
+				.goods-img-big {
+					width: 610px;
+					height: 1200px;
+					transition: 1s all;
+				}
+			}
+			.min-goods-info {
+				margin: 0 auto;
+				// display: none;
+				width: 245px;
+				margin: 0 auto;
+				h1{
+					font-weight: normal;
+					font-family: "FuturaLT-Light", "NotoSansCJKsc-light", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+					font-size: 30px;
+					line-height: 30px;
+					margin-bottom: 10px;
+					color: #313131;
+					width: 100%;
+					word-wrap: break-word;
+				}
+				h2{
+					font-weight: normal;
+					display: inline-block;
+					font-size: 12px;
+					position: relative;
+					width: 100%;
+					color: #313131;
+					text-align: center;
+					padding-bottom: 30px;
+					letter-spacing: 1px;
+					border-bottom: 1px solid #C8C6C5;
+					height: 20px;
+					line-height: 24px;
+				}
+				.backface{
+					padding: 11px 0 14px;
+					border-bottom: 1px solid #C8C6C5;
+					margin-bottom: 15px;
+					display: flex;
+					li{
+						font-size: 12px;
+						flex:1;
+						font-family: "FuturaLT-Book", "NotoSansCJKsc-demilight", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+						color: #2D2D2D;
+						cursor: pointer;
+						&:nth-of-type(1){
+							border-right: 1px solid #C8C6C5;
+						}
+					}
+					.active{
+						color: #C4B89D;
+					}
+				}
+				.look-link {
+					padding: 11px 0 14px;
+					font-size: 0;
+					border-bottom: 1px solid #C8C6C5;
+					margin-bottom: 15px;
+					a {
+						padding-right: 18px;
+						margin-right: 18px;
+						i{
+							vertical-align: middle;
+							margin-right: 6px;
+							width: 14px;
+							height: 13px;
+							background-position: -74px -163px;
+							background-image: url("../images/icon.png");
+							display: inline-block;
+						}
+						span {
+							color: #C1B497;
+							font-size: 12px;
+						}
+					}
+					a:nth-of-type(1){
+						border-right: 1px solid #C8C6C5;
+					}
+					a:nth-of-type(2) i {
+						background-position: -187px -84px;
+					}
+				}
+				.goods-share {
+					font-family: "FuturaLT-Book", "NotoSansCJKsc-demilight", "NotoSansCJKsc-Normal", "PingFangSC-Regular", "Hiragino Sans GB", "\5FAE\8F6F\96C5\9ED1", "Microsoft YaHei", sans-serif;
+					font-size: 12px;
+					color: #999999;
+					padding-bottom: 15px;
+					a {
+						display: inline-block;
+						width: 14px;
+						height: 14px;
+						background-image: url("../images/icon.png");
+					}
+					a:nth-of-type(1) {
+						background-position: -226px -84px;
+						margin-right: 9px;
+					}
+					a:nth-of-type(2) {
+						background-position: -265px -84px;
+					}
+				}
+			}
+		}
 	}
 	.correlation-wrap {
 		position: relative;
@@ -261,6 +391,21 @@ section{
 		.correlation {
 			padding: 0 15px;
 			overflow: hidden;
+			.featured-pieces{
+				display: none;
+				width: 100%;
+				margin: 0 auto;
+				background: #fff;
+				a{
+					font-size: 20px;
+					color: #000;
+					display: block;
+					letter-spacing: 2px;
+					text-align: center;
+					line-height: 20px;
+					padding: 38px 0 18px;
+				}
+			}
 			.goods-wrap {
 				position: relative;
 				width: 20%;
@@ -384,7 +529,7 @@ section{
 			border-bottom: 1px solid #EEEEEE;
 			padding: 5px 10px 20px;
 			input[type="text"] {
-				width: 995px;
+				width: 80%;
 				height: 80px;
 				border: 0;
 				background: 0;
@@ -393,7 +538,7 @@ section{
 				font-size: 14px;
 			}
 			input[type="button"] {
-				width: 160px;
+				width: 17%;
 				height: 54px;
 				border: 0;
 				border-radius: 5px;
@@ -477,40 +622,35 @@ footer {
 				}
 			}
 		}
+		.p-con-discuss{
+			form{
+				input[type="text"]{
+					width: 100%;
+				}
+				input[type="button"]{
+					width: 100%;
+					margin-top: 30px;
+				}
+			}
+		}
 	}
 }
 @media screen and (max-width: 767px) {
 	
 	section {
 		.product-show {
-			.backOrface {
-				display: none;
-			}
-			.goods-img {
-				left: 50%;
-				margin-left: -80px;
-				display: block !important;
-				img {
-					margin-top: 15px;
-					width: 160px;
-					height: auto;
-					right: 0;
-				}
-			}
-			.min-goods-info {
-				display: block;
-			}
-			.featured-pieces {
-				display: block;
-			}
-			.goods-info-wrap {
-				display: none;
-			}
+			display: none;
+		}
+		.product-show1{
+			display: block !important;
 		}
 		.correlation-wrap {
 			width: 100%;
 			.correlation {
 				width: 100%;
+				.featured-pieces {
+					display: block;
+				}
 				.goods-wrap {
 					width: 50% !important;
 					height: 267px;
